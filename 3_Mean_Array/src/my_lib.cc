@@ -16,8 +16,7 @@ namespace computation
     {
         double mean_value = 0.0;
 
-        cout << "Mean with integers: ";
-
+        cout << "Mean with integers         : ";
         for (unsigned int i = 0; i < length; i++)
         {
             mean_value += array[i];
@@ -29,8 +28,8 @@ namespace computation
     double mean_array_value(double *array, const unsigned int &length)
     {
         double mean_value = 0.0;
-        cout << "Mean with doubles: ";
-
+    
+        cout << "Mean with doubles          : ";
         for (unsigned int i = 0; i < length; i++)
         {
             mean_value += array[i];
