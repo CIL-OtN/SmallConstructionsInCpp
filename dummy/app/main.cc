@@ -12,5 +12,7 @@ int main()
     return 0;
 }
 
-
+// Github Actions und Codecov - Teil 1
 // git add .
+// git commit -m "added existing code"
+// git push
