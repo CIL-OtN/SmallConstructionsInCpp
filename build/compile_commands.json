@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/dummy/src",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/dummy_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/dummy_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/src/my_lib.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/src/my_lib.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Mean_Array/src",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/3_Mean_Array_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/3_Mean_Array_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Mean_Array/src/my_lib.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Mean_Array/src/my_lib.cc"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/dummy/app",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/dummy_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/dummy_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/app/main.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/app/main.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Mean_Array/app",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/3_Mean_Array_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/3_Mean_Array_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Mean_Array/app/main.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Mean_Array/app/main.cc"
 }
 ]

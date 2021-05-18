@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "dummy",
+					"build" : "3_Mean_Array",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "dummy"
+					"source" : "3_Mean_Array"
 				},
 				{
-					"build" : "dummy/src",
+					"build" : "3_Mean_Array/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "dummy/src",
+					"source" : "3_Mean_Array/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "dummy/app",
+					"build" : "3_Mean_Array/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "dummy/app",
+					"source" : "3_Mean_Array/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "dummy_Project",
+					"name" : "3_Mean_Array_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "dummy_Executable::@4c9f7f4eb2508940f8be",
-					"jsonFile" : "target-dummy_Executable-Debug-fd703dffc71cbed819e8.json",
-					"name" : "dummy_Executable",
+					"id" : "3_Mean_Array_Executable::@e9be2904ae3a6575242c",
+					"jsonFile" : "target-3_Mean_Array_Executable-Debug-ce12d8fbd66824255e36.json",
+					"name" : "3_Mean_Array_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "dummy_MyLib::@fe9a1ccf74a65cf841a2",
-					"jsonFile" : "target-dummy_MyLib-Debug-cf21125a52c8c77b115f.json",
-					"name" : "dummy_MyLib",
+					"id" : "3_Mean_Array_MyLib::@3c4409d2f129bc6b88f7",
+					"jsonFile" : "target-3_Mean_Array_MyLib-Debug-39b10d13f78eef486fe8.json",
+					"name" : "3_Mean_Array_MyLib",
 					"projectIndex" : 1
 				}
 			]

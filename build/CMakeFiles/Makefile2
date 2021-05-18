@@ -63,116 +63,116 @@ CMAKE_BINARY_DIR = C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: dummy/all
+all: 3_Mean_Array/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: dummy/preinstall
+preinstall: 3_Mean_Array/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: dummy/clean
+clean: 3_Mean_Array/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory dummy
+# Directory level rules for directory 3_Mean_Array
 
 # Recursive "all" directory target.
-dummy/all: dummy/src/all
-dummy/all: dummy/app/all
-.PHONY : dummy/all
+3_Mean_Array/all: 3_Mean_Array/src/all
+3_Mean_Array/all: 3_Mean_Array/app/all
+.PHONY : 3_Mean_Array/all
 
 # Recursive "preinstall" directory target.
-dummy/preinstall: dummy/src/preinstall
-dummy/preinstall: dummy/app/preinstall
-.PHONY : dummy/preinstall
+3_Mean_Array/preinstall: 3_Mean_Array/src/preinstall
+3_Mean_Array/preinstall: 3_Mean_Array/app/preinstall
+.PHONY : 3_Mean_Array/preinstall
 
 # Recursive "clean" directory target.
-dummy/clean: dummy/src/clean
-dummy/clean: dummy/app/clean
-.PHONY : dummy/clean
+3_Mean_Array/clean: 3_Mean_Array/src/clean
+3_Mean_Array/clean: 3_Mean_Array/app/clean
+.PHONY : 3_Mean_Array/clean
 
 #=============================================================================
-# Directory level rules for directory dummy/app
+# Directory level rules for directory 3_Mean_Array/app
 
 # Recursive "all" directory target.
-dummy/app/all: dummy/app/CMakeFiles/dummy_Executable.dir/all
-.PHONY : dummy/app/all
+3_Mean_Array/app/all: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
+.PHONY : 3_Mean_Array/app/all
 
 # Recursive "preinstall" directory target.
-dummy/app/preinstall:
-.PHONY : dummy/app/preinstall
+3_Mean_Array/app/preinstall:
+.PHONY : 3_Mean_Array/app/preinstall
 
 # Recursive "clean" directory target.
-dummy/app/clean: dummy/app/CMakeFiles/dummy_Executable.dir/clean
-.PHONY : dummy/app/clean
+3_Mean_Array/app/clean: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
+.PHONY : 3_Mean_Array/app/clean
 
 #=============================================================================
-# Directory level rules for directory dummy/src
+# Directory level rules for directory 3_Mean_Array/src
 
 # Recursive "all" directory target.
-dummy/src/all: dummy/src/CMakeFiles/dummy_MyLib.dir/all
-.PHONY : dummy/src/all
+3_Mean_Array/src/all: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
+.PHONY : 3_Mean_Array/src/all
 
 # Recursive "preinstall" directory target.
-dummy/src/preinstall:
-.PHONY : dummy/src/preinstall
+3_Mean_Array/src/preinstall:
+.PHONY : 3_Mean_Array/src/preinstall
 
 # Recursive "clean" directory target.
-dummy/src/clean: dummy/src/CMakeFiles/dummy_MyLib.dir/clean
-.PHONY : dummy/src/clean
+3_Mean_Array/src/clean: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
+.PHONY : 3_Mean_Array/src/clean
 
 #=============================================================================
-# Target rules for target dummy/src/CMakeFiles/dummy_MyLib.dir
+# Target rules for target 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir
 
 # All Build rule for target.
-dummy/src/CMakeFiles/dummy_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f dummy/src/CMakeFiles/dummy_MyLib.dir/build.make dummy/src/CMakeFiles/dummy_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f dummy/src/CMakeFiles/dummy_MyLib.dir/build.make dummy/src/CMakeFiles/dummy_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=3 "Built target dummy_MyLib"
-.PHONY : dummy/src/CMakeFiles/dummy_MyLib.dir/all
+3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=3 "Built target 3_Mean_Array_MyLib"
+.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-dummy/src/CMakeFiles/dummy_MyLib.dir/rule: cmake_check_build_system
+3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dummy/src/CMakeFiles/dummy_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
-.PHONY : dummy/src/CMakeFiles/dummy_MyLib.dir/rule
+.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule
 
 # Convenience name for target.
-dummy_MyLib: dummy/src/CMakeFiles/dummy_MyLib.dir/rule
-.PHONY : dummy_MyLib
+3_Mean_Array_MyLib: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule
+.PHONY : 3_Mean_Array_MyLib
 
 # clean rule for target.
-dummy/src/CMakeFiles/dummy_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f dummy/src/CMakeFiles/dummy_MyLib.dir/build.make dummy/src/CMakeFiles/dummy_MyLib.dir/clean
-.PHONY : dummy/src/CMakeFiles/dummy_MyLib.dir/clean
+3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
+.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target dummy/app/CMakeFiles/dummy_Executable.dir
+# Target rules for target 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir
 
 # All Build rule for target.
-dummy/app/CMakeFiles/dummy_Executable.dir/all: dummy/src/CMakeFiles/dummy_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f dummy/app/CMakeFiles/dummy_Executable.dir/build.make dummy/app/CMakeFiles/dummy_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f dummy/app/CMakeFiles/dummy_Executable.dir/build.make dummy/app/CMakeFiles/dummy_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=1,2 "Built target dummy_Executable"
-.PHONY : dummy/app/CMakeFiles/dummy_Executable.dir/all
+3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=1,2 "Built target 3_Mean_Array_Executable"
+.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-dummy/app/CMakeFiles/dummy_Executable.dir/rule: cmake_check_build_system
+3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dummy/app/CMakeFiles/dummy_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
-.PHONY : dummy/app/CMakeFiles/dummy_Executable.dir/rule
+.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
 
 # Convenience name for target.
-dummy_Executable: dummy/app/CMakeFiles/dummy_Executable.dir/rule
-.PHONY : dummy_Executable
+3_Mean_Array_Executable: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
+.PHONY : 3_Mean_Array_Executable
 
 # clean rule for target.
-dummy/app/CMakeFiles/dummy_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f dummy/app/CMakeFiles/dummy_Executable.dir/build.make dummy/app/CMakeFiles/dummy_Executable.dir/clean
-.PHONY : dummy/app/CMakeFiles/dummy_Executable.dir/clean
+3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
+.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

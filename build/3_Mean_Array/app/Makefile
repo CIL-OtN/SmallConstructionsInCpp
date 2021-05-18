@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Mean_Array/app//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named 3_Mean_Array_MyLib
+# Convenience name for target.
+3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
+.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
 
-# Build rule for target.
-3_Mean_Array_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array_MyLib
-.PHONY : 3_Mean_Array_MyLib
-
-# fast build rule for target.
-3_Mean_Array_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build
-.PHONY : 3_Mean_Array_MyLib/fast
-
-#=============================================================================
-# Target rules for targets named 3_Mean_Array_Executable
-
-# Build rule for target.
-3_Mean_Array_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array_Executable
+# Convenience name for target.
+3_Mean_Array_Executable: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
 .PHONY : 3_Mean_Array_Executable
 
 # fast build rule for target.
 3_Mean_Array_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build
 .PHONY : 3_Mean_Array_Executable/fast
+
+main.o: main.cc.o
+.PHONY : main.o
+
+# target to build an object file
+main.cc.o:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/main.cc.o
+.PHONY : main.cc.o
+
+main.i: main.cc.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cc.i:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/main.cc.i
+.PHONY : main.cc.i
+
+main.s: main.cc.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cc.s:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/main.cc.s
+.PHONY : main.cc.s
 
 # Help Target
 help:
@@ -151,7 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 3_Mean_Array_Executable"
-	@echo "... 3_Mean_Array_MyLib"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -50,6 +50,30 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/2_Struckt_Enum"
 		},
 		{
+			"name" : "3_Mean_Array_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Mean_Array"
+		},
+		{
+			"name" : "3_Mean_Array_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Mean_Array"
+		},
+		{
 			"name" : "AdvancedCProgrammingCourse_BINARY_DIR",
 			"properties" : 
 			[
@@ -227,10 +251,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe"
 		},
 		{
@@ -355,10 +379,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe"
 		},
 		{
