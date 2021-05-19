@@ -117,30 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3_Mean_Array_MyLib
+# Target rules for targets named 4_Dynamic_Array_MyLib
 
 # Build rule for target.
-3_Mean_Array_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array_MyLib
-.PHONY : 3_Mean_Array_MyLib
+4_Dynamic_Array_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_Dynamic_Array_MyLib
+.PHONY : 4_Dynamic_Array_MyLib
 
 # fast build rule for target.
-3_Mean_Array_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build
-.PHONY : 3_Mean_Array_MyLib/fast
+4_Dynamic_Array_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build.make 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build
+.PHONY : 4_Dynamic_Array_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named 3_Mean_Array_Executable
+# Target rules for targets named 4_Dynamic_Array_Executable
 
 # Build rule for target.
-3_Mean_Array_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array_Executable
-.PHONY : 3_Mean_Array_Executable
+4_Dynamic_Array_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_Dynamic_Array_Executable
+.PHONY : 4_Dynamic_Array_Executable
 
 # fast build rule for target.
-3_Mean_Array_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build
-.PHONY : 3_Mean_Array_Executable/fast
+4_Dynamic_Array_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build.make 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build
+.PHONY : 4_Dynamic_Array_Executable/fast
 
 # Help Target
 help:
@@ -150,8 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3_Mean_Array_Executable"
-	@echo "... 3_Mean_Array_MyLib"
+	@echo "... 4_Dynamic_Array_Executable"
+	@echo "... 4_Dynamic_Array_MyLib"
 .PHONY : help
 
 

@@ -63,116 +63,116 @@ CMAKE_BINARY_DIR = C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: 3_Mean_Array/all
+all: 4_Dynamic_Array/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 3_Mean_Array/preinstall
+preinstall: 4_Dynamic_Array/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: 3_Mean_Array/clean
+clean: 4_Dynamic_Array/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 3_Mean_Array
+# Directory level rules for directory 4_Dynamic_Array
 
 # Recursive "all" directory target.
-3_Mean_Array/all: 3_Mean_Array/src/all
-3_Mean_Array/all: 3_Mean_Array/app/all
-.PHONY : 3_Mean_Array/all
+4_Dynamic_Array/all: 4_Dynamic_Array/src/all
+4_Dynamic_Array/all: 4_Dynamic_Array/app/all
+.PHONY : 4_Dynamic_Array/all
 
 # Recursive "preinstall" directory target.
-3_Mean_Array/preinstall: 3_Mean_Array/src/preinstall
-3_Mean_Array/preinstall: 3_Mean_Array/app/preinstall
-.PHONY : 3_Mean_Array/preinstall
+4_Dynamic_Array/preinstall: 4_Dynamic_Array/src/preinstall
+4_Dynamic_Array/preinstall: 4_Dynamic_Array/app/preinstall
+.PHONY : 4_Dynamic_Array/preinstall
 
 # Recursive "clean" directory target.
-3_Mean_Array/clean: 3_Mean_Array/src/clean
-3_Mean_Array/clean: 3_Mean_Array/app/clean
-.PHONY : 3_Mean_Array/clean
+4_Dynamic_Array/clean: 4_Dynamic_Array/src/clean
+4_Dynamic_Array/clean: 4_Dynamic_Array/app/clean
+.PHONY : 4_Dynamic_Array/clean
 
 #=============================================================================
-# Directory level rules for directory 3_Mean_Array/app
+# Directory level rules for directory 4_Dynamic_Array/app
 
 # Recursive "all" directory target.
-3_Mean_Array/app/all: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
-.PHONY : 3_Mean_Array/app/all
+4_Dynamic_Array/app/all: 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/all
+.PHONY : 4_Dynamic_Array/app/all
 
 # Recursive "preinstall" directory target.
-3_Mean_Array/app/preinstall:
-.PHONY : 3_Mean_Array/app/preinstall
+4_Dynamic_Array/app/preinstall:
+.PHONY : 4_Dynamic_Array/app/preinstall
 
 # Recursive "clean" directory target.
-3_Mean_Array/app/clean: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
-.PHONY : 3_Mean_Array/app/clean
+4_Dynamic_Array/app/clean: 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/clean
+.PHONY : 4_Dynamic_Array/app/clean
 
 #=============================================================================
-# Directory level rules for directory 3_Mean_Array/src
+# Directory level rules for directory 4_Dynamic_Array/src
 
 # Recursive "all" directory target.
-3_Mean_Array/src/all: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
-.PHONY : 3_Mean_Array/src/all
+4_Dynamic_Array/src/all: 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/all
+.PHONY : 4_Dynamic_Array/src/all
 
 # Recursive "preinstall" directory target.
-3_Mean_Array/src/preinstall:
-.PHONY : 3_Mean_Array/src/preinstall
+4_Dynamic_Array/src/preinstall:
+.PHONY : 4_Dynamic_Array/src/preinstall
 
 # Recursive "clean" directory target.
-3_Mean_Array/src/clean: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
-.PHONY : 3_Mean_Array/src/clean
+4_Dynamic_Array/src/clean: 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/clean
+.PHONY : 4_Dynamic_Array/src/clean
 
 #=============================================================================
-# Target rules for target 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir
+# Target rules for target 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir
 
 # All Build rule for target.
-3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=3 "Built target 3_Mean_Array_MyLib"
-.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
+4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build.make 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build.make 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=3,4 "Built target 4_Dynamic_Array_MyLib"
+.PHONY : 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
+4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
-.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule
+.PHONY : 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/rule
 
 # Convenience name for target.
-3_Mean_Array_MyLib: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/rule
-.PHONY : 3_Mean_Array_MyLib
+4_Dynamic_Array_MyLib: 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/rule
+.PHONY : 4_Dynamic_Array_MyLib
 
 # clean rule for target.
-3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/build.make 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
-.PHONY : 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/clean
+4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/build.make 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/clean
+.PHONY : 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir
+# Target rules for target 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir
 
 # All Build rule for target.
-3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all: 3_Mean_Array/src/CMakeFiles/3_Mean_Array_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=1,2 "Built target 3_Mean_Array_Executable"
-.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
+4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/all: 4_Dynamic_Array/src/CMakeFiles/4_Dynamic_Array_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build.make 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build.make 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles --progress-num=1,2 "Built target 4_Dynamic_Array_Executable"
+.PHONY : 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/all
+4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
-.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
+.PHONY : 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/rule
 
 # Convenience name for target.
-3_Mean_Array_Executable: 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/rule
-.PHONY : 3_Mean_Array_Executable
+4_Dynamic_Array_Executable: 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/rule
+.PHONY : 4_Dynamic_Array_Executable
 
 # clean rule for target.
-3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/build.make 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
-.PHONY : 3_Mean_Array/app/CMakeFiles/3_Mean_Array_Executable.dir/clean
+4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/build.make 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/clean
+.PHONY : 4_Dynamic_Array/app/CMakeFiles/4_Dynamic_Array_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

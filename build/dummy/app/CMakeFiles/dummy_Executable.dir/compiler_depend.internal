@@ -3,7 +3,6 @@
 
 dummy/app/CMakeFiles/dummy_Executable.dir/main.cc.o
  C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/app/main.cc
- C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/include/my_lib.h
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iostream
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/c++config.h
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/os_defines.h
@@ -165,4 +164,5 @@ dummy/app/CMakeFiles/dummy_Executable.dir/main.cc.o
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ostream.tcc
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/istream
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/istream.tcc
+ C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/include/my_lib.h
 

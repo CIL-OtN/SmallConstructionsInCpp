@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Mean_Array/cmake_install.cmake")
+  include("C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/4_Dynamic_Array/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
