@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 double sum(DynamicArray &dynamic_array) 
 {
     double sum = 0.0;
@@ -17,10 +18,12 @@ double sum(DynamicArray &dynamic_array)
     return sum; 
 }
 
+
 double mean(DynamicArray &dynamic_array)
 {
     return sum(dynamic_array) / dynamic_array.m_length;
 }
+
 
 double median(DynamicArray &dynamic_array)
 {

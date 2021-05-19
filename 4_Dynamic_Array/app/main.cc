@@ -23,7 +23,6 @@ int main() {
     double mean_main = mean(my_array);
     double median_main = median(my_array);
     double sum_main = sum(my_array);
-
     double variance_main = variance(my_array);
     double stddev_main = stddev(my_array);
     
@@ -32,7 +31,6 @@ int main() {
     cout << "Sum in main.c      : " << sum_main << endl;
     cout << "Variance in main.c : " << variance_main << endl;
     cout << "Stddev in main.c   : " << stddev_main << endl;
-
 
 
     // push_back(my_array, 12);

@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 DynamicArray create_dynamic_array(std::size_t &length)
 {
     DynamicArray dynamic_array = {nullptr, 0};
