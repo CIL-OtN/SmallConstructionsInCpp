@@ -2,7 +2,6 @@
 
 #include <cstddef>
 
-
 /**
  * @brief Dynamic Structure 
  * 

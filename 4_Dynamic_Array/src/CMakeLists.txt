@@ -1,5 +1,5 @@
 # MyLib Library
-set(LIBRARY_SOURCES "my_lib.cc")
+set(LIBRARY_SOURCES "my_lib.cc" "AlgoArray.cc")
 set(LIBRARY_INCLUDES "${PROJECT_SOURCE_DIR}/include/")
 
 add_library(${LIBRARY_NAME} OBJECT ${LIBRARY_SOURCES})

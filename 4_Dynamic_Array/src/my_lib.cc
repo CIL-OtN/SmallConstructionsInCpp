@@ -23,7 +23,7 @@ DynamicArray create_dynamic_array(std::size_t &length)
 
 void print_my_array(DynamicArray &dynamic_array) 
 {
-    cout << "Print: ";
+    cout << "Print array: ";
     for (std::size_t i = 0; i < dynamic_array.m_length; i++)
     {
         cout << dynamic_array.m_data[i] << " ";
