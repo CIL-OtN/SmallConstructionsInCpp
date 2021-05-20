@@ -15,6 +15,12 @@
 ########################
 
 //Value Computed by CMake
+3_Namespace_Array_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Namespace_Array
+
+//Value Computed by CMake
+3_Namespace_Array_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Namespace_Array
+
+//Value Computed by CMake
 4_Dynamic_Array_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/4_Dynamic_Array
 
 //Value Computed by CMake

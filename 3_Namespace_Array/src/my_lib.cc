@@ -7,7 +7,7 @@ using namespace std;
 
 void cout_hello_world()
 {
-    std::cout << "Test 3_Mean_Array -> my_lib.cc and my_lib.h" << std::endl;
+    std::cout << "Test 3_Namespace_Array -> my_lib.cc and my_lib.h" << std::endl;
 }
 
 namespace computation

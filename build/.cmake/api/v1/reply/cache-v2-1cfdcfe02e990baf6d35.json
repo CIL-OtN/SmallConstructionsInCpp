@@ -2,6 +2,30 @@
 	"entries" : 
 	[
 		{
+			"name" : "3_Namespace_Array_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Namespace_Array"
+		},
+		{
+			"name" : "3_Namespace_Array_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Namespace_Array"
+		},
+		{
 			"name" : "4_Dynamic_Array_Project_BINARY_DIR",
 			"properties" : 
 			[

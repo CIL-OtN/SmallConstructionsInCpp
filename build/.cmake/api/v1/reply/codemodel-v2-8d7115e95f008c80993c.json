@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "4_Dynamic_Array",
+					"build" : "3_Namespace_Array",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "4_Dynamic_Array"
+					"source" : "3_Namespace_Array"
 				},
 				{
-					"build" : "4_Dynamic_Array/src",
+					"build" : "3_Namespace_Array/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "4_Dynamic_Array/src",
+					"source" : "3_Namespace_Array/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "4_Dynamic_Array/app",
+					"build" : "3_Namespace_Array/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "4_Dynamic_Array/app",
+					"source" : "3_Namespace_Array/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "4_Dynamic_Array_Project",
+					"name" : "3_Namespace_Array_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "4_Dynamic_Array_Executable::@76d12306f8bce2e3d53a",
-					"jsonFile" : "target-4_Dynamic_Array_Executable-Debug-315a8c3edd92e75b90ee.json",
-					"name" : "4_Dynamic_Array_Executable",
+					"id" : "3_Namespace_Array_Executable::@99d470e2dd502528852a",
+					"jsonFile" : "target-3_Namespace_Array_Executable-Debug-73b30c24cc8df9577576.json",
+					"name" : "3_Namespace_Array_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "4_Dynamic_Array_MyLib::@cdfd89418dfdafd7af36",
-					"jsonFile" : "target-4_Dynamic_Array_MyLib-Debug-a268695bab7affe1a1a7.json",
-					"name" : "4_Dynamic_Array_MyLib",
+					"id" : "3_Namespace_Array_MyLib::@f1dac0c8144a6c2bb86d",
+					"jsonFile" : "target-3_Namespace_Array_MyLib-Debug-9b0407924b01a5ff8950.json",
+					"name" : "3_Namespace_Array_MyLib",
 					"projectIndex" : 1
 				}
 			]
