@@ -117,30 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3_Namespace_Array_MyLib
+# Target rules for targets named dummy_MyLib
 
 # Build rule for target.
-3_Namespace_Array_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Namespace_Array_MyLib
-.PHONY : 3_Namespace_Array_MyLib
+dummy_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dummy_MyLib
+.PHONY : dummy_MyLib
 
 # fast build rule for target.
-3_Namespace_Array_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Namespace_Array/src/CMakeFiles/3_Namespace_Array_MyLib.dir/build.make 3_Namespace_Array/src/CMakeFiles/3_Namespace_Array_MyLib.dir/build
-.PHONY : 3_Namespace_Array_MyLib/fast
+dummy_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f dummy/src/CMakeFiles/dummy_MyLib.dir/build.make dummy/src/CMakeFiles/dummy_MyLib.dir/build
+.PHONY : dummy_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named 3_Namespace_Array_Executable
+# Target rules for targets named dummy_Executable
 
 # Build rule for target.
-3_Namespace_Array_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_Namespace_Array_Executable
-.PHONY : 3_Namespace_Array_Executable
+dummy_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dummy_Executable
+.PHONY : dummy_Executable
 
 # fast build rule for target.
-3_Namespace_Array_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 3_Namespace_Array/app/CMakeFiles/3_Namespace_Array_Executable.dir/build.make 3_Namespace_Array/app/CMakeFiles/3_Namespace_Array_Executable.dir/build
-.PHONY : 3_Namespace_Array_Executable/fast
+dummy_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f dummy/app/CMakeFiles/dummy_Executable.dir/build.make dummy/app/CMakeFiles/dummy_Executable.dir/build
+.PHONY : dummy_Executable/fast
 
 # Help Target
 help:
@@ -150,8 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3_Namespace_Array_Executable"
-	@echo "... 3_Namespace_Array_MyLib"
+	@echo "... dummy_Executable"
+	@echo "... dummy_MyLib"
 .PHONY : help
 
 

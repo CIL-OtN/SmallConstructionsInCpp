@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "3_Namespace_Array",
+					"build" : "dummy",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "3_Namespace_Array"
+					"source" : "dummy"
 				},
 				{
-					"build" : "3_Namespace_Array/src",
+					"build" : "dummy/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "3_Namespace_Array/src",
+					"source" : "dummy/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "3_Namespace_Array/app",
+					"build" : "dummy/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "3_Namespace_Array/app",
+					"source" : "dummy/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "3_Namespace_Array_Project",
+					"name" : "dummy_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "3_Namespace_Array_Executable::@99d470e2dd502528852a",
-					"jsonFile" : "target-3_Namespace_Array_Executable-Debug-73b30c24cc8df9577576.json",
-					"name" : "3_Namespace_Array_Executable",
+					"id" : "dummy_Executable::@4c9f7f4eb2508940f8be",
+					"jsonFile" : "target-dummy_Executable-Debug-fd703dffc71cbed819e8.json",
+					"name" : "dummy_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "3_Namespace_Array_MyLib::@f1dac0c8144a6c2bb86d",
-					"jsonFile" : "target-3_Namespace_Array_MyLib-Debug-9b0407924b01a5ff8950.json",
-					"name" : "3_Namespace_Array_MyLib",
+					"id" : "dummy_MyLib::@fe9a1ccf74a65cf841a2",
+					"jsonFile" : "target-dummy_MyLib-Debug-0126c180044bee7c54ec.json",
+					"name" : "dummy_MyLib",
 					"projectIndex" : 1
 				}
 			]

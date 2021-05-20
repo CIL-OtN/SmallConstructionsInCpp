@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "3_Namespace_Array/app/3_Namespace_Array_Executable.exe"
+			"path" : "dummy/app/dummy_Executable.exe"
 		},
 		{
-			"path" : "3_Namespace_Array/app/3_Namespace_Array_Executable.pdb"
+			"path" : "dummy/app/dummy_Executable.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -19,7 +19,7 @@
 		],
 		"files" : 
 		[
-			"3_Namespace_Array/app/CMakeLists.txt"
+			"dummy/app/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -62,11 +62,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/3_Namespace_Array"
+					"path" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/dummy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/3_Namespace_Array/include"
+					"path" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/include"
 				}
 			],
 			"language" : "CXX",
@@ -88,10 +88,10 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "3_Namespace_Array_MyLib::@f1dac0c8144a6c2bb86d"
+			"id" : "dummy_MyLib::@fe9a1ccf74a65cf841a2"
 		}
 	],
-	"id" : "3_Namespace_Array_Executable::@99d470e2dd502528852a",
+	"id" : "dummy_Executable::@4c9f7f4eb2508940f8be",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,12 +107,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "3_Namespace_Array_Executable",
-	"nameOnDisk" : "3_Namespace_Array_Executable.exe",
+	"name" : "dummy_Executable",
+	"nameOnDisk" : "dummy_Executable.exe",
 	"paths" : 
 	{
-		"build" : "3_Namespace_Array/app",
-		"source" : "3_Namespace_Array/app"
+		"build" : "dummy/app",
+		"source" : "dummy/app"
 	},
 	"sourceGroups" : 
 	[
@@ -136,13 +136,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "3_Namespace_Array/app/main.cc",
+			"path" : "dummy/app/main.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"isGenerated" : true,
-			"path" : "build/3_Namespace_Array/src/CMakeFiles/3_Namespace_Array_MyLib.dir/my_lib.cc.o",
+			"path" : "build/dummy/src/CMakeFiles/dummy_MyLib.dir/my_lib.cc.o",
 			"sourceGroupIndex" : 1
 		}
 	],

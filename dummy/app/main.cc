@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    std::system("clear");
     cout_hello_world();
 
     return 0;

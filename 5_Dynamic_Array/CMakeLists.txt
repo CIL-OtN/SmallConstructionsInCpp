@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PROJECT "4_Dynamic_Array")
+set(PROJECT "5_Dynamic_Array")
 
 project("${PROJECT}_Project" VERSION 1.2.3 LANGUAGES CXX)
 

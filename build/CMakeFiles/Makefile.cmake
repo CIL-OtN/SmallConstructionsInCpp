@@ -28,14 +28,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
-  "../3_Namespace_Array/CMakeLists.txt"
-  "../3_Namespace_Array/app/CMakeLists.txt"
-  "../3_Namespace_Array/src/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeSystem.cmake"
+  "../dummy/CMakeLists.txt"
+  "../dummy/app/CMakeLists.txt"
+  "../dummy/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,13 +47,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "3_Namespace_Array/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "3_Namespace_Array/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "3_Namespace_Array/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dummy/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dummy/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dummy/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "3_Namespace_Array/src/CMakeFiles/3_Namespace_Array_MyLib.dir/DependInfo.cmake"
-  "3_Namespace_Array/app/CMakeFiles/3_Namespace_Array_Executable.dir/DependInfo.cmake"
+  "dummy/src/CMakeFiles/dummy_MyLib.dir/DependInfo.cmake"
+  "dummy/app/CMakeFiles/dummy_Executable.dir/DependInfo.cmake"
   )
