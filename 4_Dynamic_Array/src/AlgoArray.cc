@@ -8,20 +8,40 @@ using namespace std;
 
 double sum(DynamicArray &dynamic_array) 
 {
-    double sum = 0.0;
+    double sum_value = 0.0;
 
     for (std::size_t i = 0; i < dynamic_array.m_length; i++)
     {
-        sum += dynamic_array.m_data[i];
+        sum_value += dynamic_array.m_data[i];
     }
     
-    return sum; 
+    return sum_value; 
 }
 
+double max(DynamicArray &dynamic_array) 
+{
+    double max_value = 0.0;
+
+    for (std::size_t i = 0; i < dynamic_array.m_length; i++)
+    {
+        if (i == 0) 
+        {
+            max_value = dynamic_array.m_data[i];
+        }
+        else if (dynamic_array.m_data[i] > max_value) 
+        {
+            max_value = dynamic_array.m_data[i];
+        }        
+    }
+
+    return max_value;
+}
 
 double mean(DynamicArray &dynamic_array)
 {
-    return sum(dynamic_array) / dynamic_array.m_length;
+    double mean_value = sum(dynamic_array) / dynamic_array.m_length;
+
+    return mean_value;
 }
 
 
@@ -31,7 +51,7 @@ double median(DynamicArray &dynamic_array)
 
     bool has_odd_length = dynamic_array.m_length % 2;
 
-    if(has_odd_length) 
+    if (has_odd_length) 
     {
         std::size_t index = dynamic_array.m_length / 2;
         median_value = dynamic_array.m_data[index];

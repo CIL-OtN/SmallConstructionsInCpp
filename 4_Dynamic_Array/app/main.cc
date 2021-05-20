@@ -20,15 +20,18 @@ int main() {
     my_array = create_dynamic_array(size_arr);
 
     print_my_array(my_array);
+    
+    double max_main = max(my_array);
+    double sum_main = sum(my_array);
     double mean_main = mean(my_array);
     double median_main = median(my_array);
-    double sum_main = sum(my_array);
     double variance_main = variance(my_array);
     double stddev_main = stddev(my_array);
     
+    cout << "Max in main.c      : " << max_main << endl;
+    cout << "Sum in main.c      : " << sum_main << endl;
     cout << "Mean in main.c     : " << mean_main << endl;
     cout << "Median in main.c   : " << median_main << endl;
-    cout << "Sum in main.c      : " << sum_main << endl;
     cout << "Variance in main.c : " << variance_main << endl;
     cout << "Stddev in main.c   : " << stddev_main << endl;
 
