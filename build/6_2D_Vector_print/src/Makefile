@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/6_2D_Vector_print/src//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named 6_2D_Vector_print_MyLib
+# Convenience name for target.
+6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/rule:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/rule
+.PHONY : 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/rule
 
-# Build rule for target.
-6_2D_Vector_print_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print_MyLib
+# Convenience name for target.
+6_2D_Vector_print_MyLib: 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/rule
 .PHONY : 6_2D_Vector_print_MyLib
 
 # fast build rule for target.
 6_2D_Vector_print_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build
 .PHONY : 6_2D_Vector_print_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named 6_2D_Vector_print_Executable
+my_lib.o: my_lib.cc.o
+.PHONY : my_lib.o
 
-# Build rule for target.
-6_2D_Vector_print_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print_Executable
-.PHONY : 6_2D_Vector_print_Executable
+# target to build an object file
+my_lib.cc.o:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/my_lib.cc.o
+.PHONY : my_lib.cc.o
 
-# fast build rule for target.
-6_2D_Vector_print_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/app/CMakeFiles/6_2D_Vector_print_Executable.dir/build.make 6_2D_Vector_print/app/CMakeFiles/6_2D_Vector_print_Executable.dir/build
-.PHONY : 6_2D_Vector_print_Executable/fast
+my_lib.i: my_lib.cc.i
+.PHONY : my_lib.i
+
+# target to preprocess a source file
+my_lib.cc.i:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/my_lib.cc.i
+.PHONY : my_lib.cc.i
+
+my_lib.s: my_lib.cc.s
+.PHONY : my_lib.s
+
+# target to generate assembly for a file
+my_lib.cc.s:
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/my_lib.cc.s
+.PHONY : my_lib.cc.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 6_2D_Vector_print_Executable"
 	@echo "... 6_2D_Vector_print_MyLib"
+	@echo "... my_lib.o"
+	@echo "... my_lib.i"
+	@echo "... my_lib.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

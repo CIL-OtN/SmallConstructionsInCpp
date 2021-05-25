@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/6_2D_Vector_print//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named 6_2D_Vector_print_MyLib
-
-# Build rule for target.
-6_2D_Vector_print_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print_MyLib
-.PHONY : 6_2D_Vector_print_MyLib
-
-# fast build rule for target.
-6_2D_Vector_print_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build.make 6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/build
-.PHONY : 6_2D_Vector_print_MyLib/fast
-
-#=============================================================================
-# Target rules for targets named 6_2D_Vector_print_Executable
-
-# Build rule for target.
-6_2D_Vector_print_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2D_Vector_print_Executable
-.PHONY : 6_2D_Vector_print_Executable
-
-# fast build rule for target.
-6_2D_Vector_print_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 6_2D_Vector_print/app/CMakeFiles/6_2D_Vector_print_Executable.dir/build.make 6_2D_Vector_print/app/CMakeFiles/6_2D_Vector_print_Executable.dir/build
-.PHONY : 6_2D_Vector_print_Executable/fast
 
 # Help Target
 help:
@@ -150,8 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 6_2D_Vector_print_Executable"
-	@echo "... 6_2D_Vector_print_MyLib"
 .PHONY : help
 
 
@@ -163,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/dummy/src",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/dummy_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/dummy_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/src/my_lib.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/src/my_lib.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/6_2D_Vector_print/src",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/6_2D_Vector_print_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/6_2D_Vector_print_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/6_2D_Vector_print/src/my_lib.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/6_2D_Vector_print/src/my_lib.cc"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/dummy/app",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/dummy_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/dummy_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/app/main.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/dummy/app/main.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/6_2D_Vector_print/app",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/6_2D_Vector_print_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/6_2D_Vector_print_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/6_2D_Vector_print/app/main.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/6_2D_Vector_print/app/main.cc"
 }
 ]

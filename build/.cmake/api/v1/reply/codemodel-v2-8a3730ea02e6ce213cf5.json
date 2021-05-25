@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "6_2D_Vector_print",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "6_2D_Vector_print"
+				},
+				{
+					"build" : "6_2D_Vector_print/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "6_2D_Vector_print/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "6_2D_Vector_print/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "6_2D_Vector_print/app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AdvancedCProgrammingCourse"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "6_2D_Vector_print_Project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "6_2D_Vector_print_Executable::@7605bb0edac558e6f3a7",
+					"jsonFile" : "target-6_2D_Vector_print_Executable-Debug-12be93c3057473f0aa91.json",
+					"name" : "6_2D_Vector_print_Executable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "6_2D_Vector_print_MyLib::@3e855d203f30de5c50da",
+					"jsonFile" : "target-6_2D_Vector_print_MyLib-Debug-44c54fdda616ce1a0cd1.json",
+					"name" : "6_2D_Vector_print_MyLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build",
+		"source" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
