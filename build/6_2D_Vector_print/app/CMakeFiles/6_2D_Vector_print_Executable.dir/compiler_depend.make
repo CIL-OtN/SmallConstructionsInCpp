@@ -168,6 +168,51 @@
   /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_vector.h \
   /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_bvector.h \
   /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/vector.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/algorithm \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/utility \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_relops.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ranges_algo.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ranges_algobase.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iterator \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stream_iterator.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ranges \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/refwrap.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/invoke.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/optional \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/enable_special_members.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tuple \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/array \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/uses_allocator.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/glue_algorithm_defs.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/functional \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/std_function.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/unordered_map \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ext/aligned_buffer.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/hashtable.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/hashtable_policy.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/node_handle.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/unordered_map.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/erase_if.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/execution_defs.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/numeric \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_numeric.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/glue_numeric_defs.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/math.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cmath \
+  /usr/include/math.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/specfun.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/gamma.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/special_function_util.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/bessel_function.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/beta_function.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/ell_integral.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/exp_integral.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/hypergeometric.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/legendre_function.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/modified_bessel_func.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/poly_hermite.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/poly_laguerre.tcc \
+  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/riemann_zeta.tcc \
   ../6_2D_Vector_print/include/my_lib.h
 
 
@@ -180,6 +225,8 @@
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_algobase.h:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/riemann_zeta.tcc:
 
 ../6_2D_Vector_print/app/main.cc:
 
@@ -207,6 +254,8 @@
 
 /usr/include/sys/config.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/ell_integral.tcc:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iosfwd:
 
 /usr/include/time.h:
@@ -215,9 +264,13 @@
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stringfwd.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/bessel_function.tcc:
+
 /usr/include/sys/stdio.h:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/hypergeometric.tcc:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/stdarg.h:
 
@@ -235,6 +288,10 @@
 
 /usr/include/_ansi.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/legendre_function.tcc:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/invoke.h:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/istream:
 
 /usr/include/newlib.h:
@@ -243,7 +300,11 @@
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/debug/debug.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/beta_function.tcc:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/exception_ptr.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/uses_allocator.h:
 
 /usr/include/_newlib_version.h:
 
@@ -261,6 +322,8 @@
 
 /usr/include/cygwin/config.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ranges:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ext/type_traits.h:
 
 /usr/include/sys/reent.h:
@@ -269,7 +332,11 @@
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/stddef.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/exp_integral.tcc:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/move.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/glue_numeric_defs.h:
 
 /usr/include/sys/_types.h:
 
@@ -284,6 +351,8 @@
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/exception:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cstdint:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/erase_if.h:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/exception_defines.h:
 
@@ -363,11 +432,15 @@
 
 /usr/include/bits/endian.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/optional:
+
 /usr/include/sys/select.h:
 
 /usr/include/sys/_sigset.h:
 
 /usr/include/sys/_timeval.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stream_iterator.h:
 
 /usr/include/sys/timespec.h:
 
@@ -398,6 +471,8 @@
 /usr/include/machine/time.h:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/atomic_word.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iterator:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/locale_classes.h:
 
@@ -491,6 +566,8 @@
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/locale_facets.tcc:
 
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/numeric:
+
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/basic_ios.tcc:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ostream.tcc:
@@ -502,5 +579,63 @@
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_bvector.h:
 
 /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/vector.tcc:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/algorithm:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/utility:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ranges_algo.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ranges_algobase.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/refwrap.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/enable_special_members.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tuple:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/array:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/glue_algorithm_defs.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/functional:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/std_function.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/unordered_map:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ext/aligned_buffer.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/hashtable.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/hashtable_policy.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/node_handle.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/unordered_map.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/pstl/execution_defs.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/stl_numeric.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/math.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cmath:
+
+/usr/include/math.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/specfun.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/gamma.tcc:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/special_function_util.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/modified_bessel_func.tcc:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/poly_hermite.tcc:
+
+/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/tr1/poly_laguerre.tcc:
 
 ../6_2D_Vector_print/include/my_lib.h:

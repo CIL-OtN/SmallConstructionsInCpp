@@ -21,6 +21,12 @@
 6_2D_Vector_print_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/6_2D_Vector_print
 
 //Value Computed by CMake
+7_Correlation_coefficient_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/7_Correlation_coefficient
+
+//Value Computed by CMake
+7_Correlation_coefficient_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient
+
+//Value Computed by CMake
 AdvancedCProgrammingCourse_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build
 
 //Value Computed by CMake

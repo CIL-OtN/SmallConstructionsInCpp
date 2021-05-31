@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/6_2D_Vector_print/cmake_install.cmake")
+  include("C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/7_Correlation_coefficient/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

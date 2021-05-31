@@ -28,9 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
-  "../6_2D_Vector_print/CMakeLists.txt"
-  "../6_2D_Vector_print/app/CMakeLists.txt"
-  "../6_2D_Vector_print/src/CMakeLists.txt"
+  "../7_Correlation_coefficient/CMakeLists.txt"
+  "../7_Correlation_coefficient/app/CMakeLists.txt"
+  "../7_Correlation_coefficient/src/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeCXXCompiler.cmake"
@@ -47,13 +47,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "6_2D_Vector_print/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "6_2D_Vector_print/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "6_2D_Vector_print/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "7_Correlation_coefficient/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "7_Correlation_coefficient/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "7_Correlation_coefficient/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "6_2D_Vector_print/src/CMakeFiles/6_2D_Vector_print_MyLib.dir/DependInfo.cmake"
-  "6_2D_Vector_print/app/CMakeFiles/6_2D_Vector_print_Executable.dir/DependInfo.cmake"
+  "7_Correlation_coefficient/src/CMakeFiles/7_Correlation_coefficient_MyLib.dir/DependInfo.cmake"
+  "7_Correlation_coefficient/app/CMakeFiles/7_Correlation_coefficient_Executable.dir/DependInfo.cmake"
   )

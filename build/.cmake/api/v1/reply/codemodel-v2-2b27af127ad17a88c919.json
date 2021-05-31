@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "6_2D_Vector_print",
+					"build" : "7_Correlation_coefficient",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "6_2D_Vector_print"
+					"source" : "7_Correlation_coefficient"
 				},
 				{
-					"build" : "6_2D_Vector_print/src",
+					"build" : "7_Correlation_coefficient/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "6_2D_Vector_print/src",
+					"source" : "7_Correlation_coefficient/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "6_2D_Vector_print/app",
+					"build" : "7_Correlation_coefficient/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "6_2D_Vector_print/app",
+					"source" : "7_Correlation_coefficient/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "6_2D_Vector_print_Project",
+					"name" : "7_Correlation_coefficient_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "6_2D_Vector_print_Executable::@7605bb0edac558e6f3a7",
-					"jsonFile" : "target-6_2D_Vector_print_Executable-Debug-12be93c3057473f0aa91.json",
-					"name" : "6_2D_Vector_print_Executable",
+					"id" : "7_Correlation_coefficient_Executable::@0a8801fd7a12dede4cb9",
+					"jsonFile" : "target-7_Correlation_coefficient_Executable-Debug-599fe749636eb87a0a40.json",
+					"name" : "7_Correlation_coefficient_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "6_2D_Vector_print_MyLib::@3e855d203f30de5c50da",
-					"jsonFile" : "target-6_2D_Vector_print_MyLib-Debug-44c54fdda616ce1a0cd1.json",
-					"name" : "6_2D_Vector_print_MyLib",
+					"id" : "7_Correlation_coefficient_MyLib::@5536eae722640ff5c376",
+					"jsonFile" : "target-7_Correlation_coefficient_MyLib-Debug-a19904c67402407c95a9.json",
+					"name" : "7_Correlation_coefficient_MyLib",
 					"projectIndex" : 1
 				}
 			]

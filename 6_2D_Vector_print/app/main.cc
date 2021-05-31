@@ -1,5 +1,8 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <numeric>
+#include <math.h>
 #include <stdio.h>
 
 #include "my_lib.h"
@@ -69,7 +72,7 @@ void print_2D_vector_iterator(D_2_IntVector &vec)
     {
         for (col = row->begin(); col != row->end(); col++)
         {
-            cout << *col << " ";
+            cout << *col  << " ";
         }
         cout << endl;
     }
@@ -79,7 +82,7 @@ void print_2D_vector_auto(D_2_IntVector &vec)
 {
     cout << "Function call: print_2D_vector_auto" << endl;
     cout << "-----------------------------------" << endl;
-
+    
     for (auto row = vec.begin(); row != vec.end(); row++)
     {
         for (auto col = row->begin(); col != row->end(); col++)
