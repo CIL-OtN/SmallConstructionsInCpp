@@ -112,11 +112,11 @@ DoubleVector max_row_values(Matrix &matrix_func)
 {
 	DoubleVector row_max_vec(matrix_func.size(), 0.0);
 
-	for (unsigned long int i = 0; i != matrix_func.size(); ++i)
+	for (std::size_t i = 0; i != matrix_func.size(); ++i)
 	{
 		double act_row_max = 0.0;
 
-		for (unsigned long int j = 0; j != matrix_func[i].size(); ++j)
+		for (std::size_t j = 0; j != matrix_func[i].size(); ++j)
 		{
 			if (matrix_func[i][j] > act_row_max)
 			{
@@ -133,11 +133,11 @@ DoubleVector sum_row_values(Matrix &matrix_func)
 {
     DoubleVector row_sum_vec(matrix_func.size(), 0.0);
 
-	for (unsigned long int i = 0; i != matrix_func.size(); ++i)
+	for (std::size_t i = 0; i != matrix_func.size(); ++i)
 	{
         double sum = 0.0;
 
-		for (unsigned long int j = 0; j != matrix_func[i].size(); ++j)
+		for (std::size_t j = 0; j != matrix_func[i].size(); ++j)
 		{
             sum += matrix_func[i][j];
             row_sum_vec[i] = sum;
@@ -151,11 +151,11 @@ DoubleVector mean_row_values(Matrix &matrix_func)
 {
     DoubleVector row_mean_vec(matrix_func.size(), 0.0);
 
-	for (unsigned long int i = 0; i != matrix_func.size(); ++i)
+	for (std::size_t i = 0; i != matrix_func.size(); ++i)
 	{
         double sum = 0.0;
 
-		for (unsigned long int j = 0; j != matrix_func[i].size(); ++j)
+		for (std::size_t j = 0; j != matrix_func[i].size(); ++j)
 		{
             sum += matrix_func[i][j];
             row_mean_vec[i] = sum / matrix_func[i].size();
