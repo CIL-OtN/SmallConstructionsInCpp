@@ -8,7 +8,6 @@ typedef vector<double>          DoubleVector;
 typedef vector<DoubleVector>    Matrix;
 typedef vector<std::string>     StringVector;
 
-double sort_and_max(vector<double> &vec);
 
 /**
  * @brief This function fills a passed matrix with random values from 0 - 10
@@ -23,6 +22,13 @@ void fill_matrix(Matrix &matrix_fun);
  * @param vector<vector<double>> &matrix_func
  */
 void print_matrix(Matrix &matrix_func);
+
+/**
+ * @brief This function sort a passed matrix each row
+ *
+ * @param vector<vector<double>> &matrix_func
+ */
+void sort_row_values(Matrix &matrix_func);
 
 /**
  * @brief This function sum up and prints the cols of a passed matrix

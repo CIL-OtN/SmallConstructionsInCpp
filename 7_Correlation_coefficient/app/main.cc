@@ -21,6 +21,10 @@ int main()
     fill_matrix(matrix);
     print_matrix(matrix);
 
+    sort_row_values(matrix);
+
+
+
     cout << endl;
 
     return 0;
