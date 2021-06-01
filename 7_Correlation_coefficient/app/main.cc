@@ -6,6 +6,9 @@
 
 using namespace std;
 
+// code running test in powershell:
+// PS C:\Users\eywiotosof\Documents\GitHub\SmallConstructionsInCpp\build\7_Correlation_coefficient\app> Measure-Command {.\7_Correlation_coefficient_Executable.exe}
+
 int main()
 {
     std::system("clear"); cout << endl;
