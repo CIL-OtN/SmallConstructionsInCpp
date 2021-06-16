@@ -27,6 +27,12 @@
 7_Correlation_coefficient_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient
 
 //Value Computed by CMake
+8_Matrix_Class_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/8_Matrix_Class
+
+//Value Computed by CMake
+8_Matrix_Class_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class
+
+//Value Computed by CMake
 AdvancedCProgrammingCourse_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build
 
 //Value Computed by CMake

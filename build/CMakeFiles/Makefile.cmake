@@ -28,9 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
-  "../7_Correlation_coefficient/CMakeLists.txt"
-  "../7_Correlation_coefficient/app/CMakeLists.txt"
-  "../7_Correlation_coefficient/src/CMakeLists.txt"
+  "../8_Matrix_Class/CMakeLists.txt"
+  "../8_Matrix_Class/app/CMakeLists.txt"
+  "../8_Matrix_Class/src/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeCXXCompiler.cmake"
@@ -47,13 +47,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "7_Correlation_coefficient/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "7_Correlation_coefficient/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "7_Correlation_coefficient/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "8_Matrix_Class/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "8_Matrix_Class/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "8_Matrix_Class/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "7_Correlation_coefficient/src/CMakeFiles/7_Correlation_coefficient_MyLib.dir/DependInfo.cmake"
-  "7_Correlation_coefficient/app/CMakeFiles/7_Correlation_coefficient_Executable.dir/DependInfo.cmake"
+  "8_Matrix_Class/src/CMakeFiles/8_Matrix_Class_MyLib.dir/DependInfo.cmake"
+  "8_Matrix_Class/app/CMakeFiles/8_Matrix_Class_Executable.dir/DependInfo.cmake"
   )

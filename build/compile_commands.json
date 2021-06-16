@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/7_Correlation_coefficient/src",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/7_Correlation_coefficient_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/7_Correlation_coefficient_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient/src/my_lib.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient/src/my_lib.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/8_Matrix_Class/src",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/8_Matrix_Class_MyLib.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/8_Matrix_Class_MyLib.dir/my_lib.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class/src/my_lib.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class/src/my_lib.cc"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/7_Correlation_coefficient/app",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/7_Correlation_coefficient_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/7_Correlation_coefficient_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient/app/main.cc",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient/app/main.cc"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/8_Matrix_Class/app",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe  @CMakeFiles/8_Matrix_Class_Executable.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles/8_Matrix_Class_Executable.dir/main.cc.o -c C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class/app/main.cc",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class/app/main.cc"
 }
 ]

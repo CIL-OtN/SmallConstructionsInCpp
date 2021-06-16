@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "7_Correlation_coefficient",
+					"build" : "8_Matrix_Class",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "7_Correlation_coefficient"
+					"source" : "8_Matrix_Class"
 				},
 				{
-					"build" : "7_Correlation_coefficient/src",
+					"build" : "8_Matrix_Class/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "7_Correlation_coefficient/src",
+					"source" : "8_Matrix_Class/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "7_Correlation_coefficient/app",
+					"build" : "8_Matrix_Class/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "7_Correlation_coefficient/app",
+					"source" : "8_Matrix_Class/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "7_Correlation_coefficient_Project",
+					"name" : "8_Matrix_Class_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "7_Correlation_coefficient_Executable::@0a8801fd7a12dede4cb9",
-					"jsonFile" : "target-7_Correlation_coefficient_Executable-Debug-599fe749636eb87a0a40.json",
-					"name" : "7_Correlation_coefficient_Executable",
+					"id" : "8_Matrix_Class_Executable::@e2ad0ec3d21536059ec3",
+					"jsonFile" : "target-8_Matrix_Class_Executable-Debug-ffeb5970c6d0a251153b.json",
+					"name" : "8_Matrix_Class_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "7_Correlation_coefficient_MyLib::@5536eae722640ff5c376",
-					"jsonFile" : "target-7_Correlation_coefficient_MyLib-Debug-a19904c67402407c95a9.json",
-					"name" : "7_Correlation_coefficient_MyLib",
+					"id" : "8_Matrix_Class_MyLib::@d0f8a6e4fdaa0c7051ba",
+					"jsonFile" : "target-8_Matrix_Class_MyLib-Debug-68923202b41409fb48cc.json",
+					"name" : "8_Matrix_Class_MyLib",
 					"projectIndex" : 1
 				}
 			]

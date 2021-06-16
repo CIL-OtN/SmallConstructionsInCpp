@@ -50,6 +50,30 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/7_Correlation_coefficient"
 		},
 		{
+			"name" : "8_Matrix_Class_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/build/8_Matrix_Class"
+		},
+		{
+			"name" : "8_Matrix_Class_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/SmallConstructionsInCpp/8_Matrix_Class"
+		},
+		{
 			"name" : "AdvancedCProgrammingCourse_BINARY_DIR",
 			"properties" : 
 			[

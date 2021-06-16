@@ -16,9 +16,9 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("6_2D_Vector_print")
 
-add_subdirectory("7_Correlation_coefficient")
+# add_subdirectory("7_Correlation_coefficient")
 
-# add_subdirectory("")
+add_subdirectory("8_Matrix_Class")
 
 # add_subdirectory("")
 
